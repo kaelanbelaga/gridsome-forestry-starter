@@ -35,6 +35,19 @@ fields:
   config:
     color_format: Hex
   label: Foreground color
+- name: test
+  type: field_group_list
+  fields:
+  - name: gfn
+    type: text
+    config:
+      required: false
+    label: gfn
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: test
 pages:
 - projects/3d-graff.md
 - projects/chelsea-landmark.md
